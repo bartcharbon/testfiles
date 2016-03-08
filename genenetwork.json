@@ -1,0 +1,2615 @@
+{
+  "href": "http://molgenis27.target.rug.nl/api/v1/prioritization/HP:0001874,HP:0001419,HP:0002718,HP:0004313,HP:0000951,HP:0000955?verbose",
+  "termsNotFound": [
+    "HP:0000955"
+  ],
+  "terms": [
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/pathway/HP:0001874",
+      "term": {
+        "database": "HPO",
+        "id": "HP:0001874",
+        "name": "Abnormality of neutrophils",
+        "url": "http://www.human-phenotype-ontology.org/hpoweb/showterm?id=HP:0001874",
+        "numAnnotatedGenes": 135,
+        "auc": 0.8047104488145163,
+        "index_": 1031
+      }
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/pathway/HP:0001419",
+      "term": {
+        "database": "HPO",
+        "id": "HP:0001419",
+        "name": "X-linked recessive inheritance",
+        "url": "http://www.human-phenotype-ontology.org/hpoweb/showterm?id=HP:0001419",
+        "numAnnotatedGenes": 109,
+        "auc": 0.8932899466301885,
+        "index_": 818
+      }
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/pathway/HP:0002718",
+      "term": {
+        "database": "HPO",
+        "id": "HP:0002718",
+        "name": "Recurrent bacterial infections",
+        "url": "http://www.human-phenotype-ontology.org/hpoweb/showterm?id=HP:0002718",
+        "numAnnotatedGenes": 71,
+        "auc": 0.8613924598760118,
+        "index_": 1471
+      }
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/pathway/HP:0004313",
+      "term": {
+        "database": "HPO",
+        "id": "HP:0004313",
+        "name": "Hypogammaglobulinemia",
+        "url": "http://www.human-phenotype-ontology.org/hpoweb/showterm?id=HP:0004313",
+        "numAnnotatedGenes": 81,
+        "auc": 0.8315755078576764,
+        "index_": 1918
+      }
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/pathway/HP:0000951",
+      "term": {
+        "database": "HPO",
+        "id": "HP:0000951",
+        "name": "Abnormality of the skin",
+        "url": "http://www.human-phenotype-ontology.org/hpoweb/showterm?id=HP:0000951",
+        "numAnnotatedGenes": 1070,
+        "auc": 0.7649254749334279,
+        "index_": 566
+      }
+    }
+  ],
+  "results": [
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000015285",
+      "predicted": [
+        4.548,
+        2.449,
+        6.414,
+        5.217,
+        2.487
+      ],
+      "weightedZScore": 9.443,
+      "gene": {
+        "id": "ENSG00000015285",
+        "index_": 360,
+        "name": "WAS",
+        "biotype": "protein_coding",
+        "chr": "X",
+        "start": 48534985,
+        "stop": 48549818,
+        "strand": 1,
+        "description": "Wiskott-Aldrich syndrome [Source:HGNC Symbol;Acc:12731]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": [
+        "HP:0000951",
+        "HP:0001419",
+        "HP:0001874",
+        "HP:0002718",
+        "HP:0004313"
+      ]
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000010671",
+      "predicted": [
+        4.338,
+        2.128,
+        6.314,
+        5.05,
+        2.201
+      ],
+      "weightedZScore": 8.958,
+      "gene": {
+        "id": "ENSG00000010671",
+        "index_": 272,
+        "name": "BTK",
+        "biotype": "protein_coding",
+        "chr": "X",
+        "start": 100604435,
+        "stop": 100641183,
+        "strand": -1,
+        "description": "Bruton agammaglobulinemia tyrosine kinase [Source:HGNC Symbol;Acc:1133]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": [
+        "HP:0000951",
+        "HP:0001419",
+        "HP:0001874",
+        "HP:0002718",
+        "HP:0004313"
+      ]
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000265415",
+      "predicted": [
+        4.402,
+        3.461,
+        3.916,
+        3.652,
+        4.156
+      ],
+      "weightedZScore": 8.76,
+      "gene": {
+        "id": "ENSG00000265415",
+        "index_": 51858,
+        "name": "CTD-2510F5.4",
+        "biotype": "antisense",
+        "chr": "17",
+        "start": 57280038,
+        "stop": 57281190,
+        "strand": -1,
+        "description": "",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000007312",
+      "predicted": [
+        3.771,
+        0.613,
+        5.542,
+        6.852,
+        1.953
+      ],
+      "weightedZScore": 8.377,
+      "gene": {
+        "id": "ENSG00000007312",
+        "index_": 181,
+        "name": "CD79B",
+        "biotype": "protein_coding",
+        "chr": "17",
+        "start": 62006100,
+        "stop": 62009714,
+        "strand": -1,
+        "description": "CD79b molecule, immunoglobulin-associated beta [Source:HGNC Symbol;Acc:1699]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": [
+        "HP:0000951",
+        "HP:0001874",
+        "HP:0002718",
+        "HP:0004313"
+      ]
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000117091",
+      "predicted": [
+        3.666,
+        0.603,
+        6.008,
+        6.956,
+        1.061
+      ],
+      "weightedZScore": 8.181,
+      "gene": {
+        "id": "ENSG00000117091",
+        "index_": 4692,
+        "name": "CD48",
+        "biotype": "protein_coding",
+        "chr": "1",
+        "start": 160648536,
+        "stop": 160681641,
+        "strand": -1,
+        "description": "CD48 molecule [Source:HGNC Symbol;Acc:1683]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000130755",
+      "predicted": [
+        4.206,
+        2.082,
+        4.968,
+        4.889,
+        1.896
+      ],
+      "weightedZScore": 8.068,
+      "gene": {
+        "id": "ENSG00000130755",
+        "index_": 6372,
+        "name": "GMFG",
+        "biotype": "protein_coding",
+        "chr": "19",
+        "start": 39818993,
+        "stop": 39833012,
+        "strand": -1,
+        "description": "glia maturation factor, gamma [Source:HGNC Symbol;Acc:4374]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000269427",
+      "predicted": [
+        3.796,
+        3.32,
+        3.466,
+        4.053,
+        3.398
+      ],
+      "weightedZScore": 8.065,
+      "gene": {
+        "id": "ENSG00000269427",
+        "index_": 54326,
+        "name": "CTC-429P9.1",
+        "biotype": "antisense",
+        "chr": "19",
+        "start": 16741554,
+        "stop": 16754753,
+        "strand": 1,
+        "description": "",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000101972",
+      "predicted": [
+        2.753,
+        6.238,
+        2.64,
+        3.233,
+        2.996
+      ],
+      "weightedZScore": 7.987,
+      "gene": {
+        "id": "ENSG00000101972",
+        "index_": 2616,
+        "name": "STAG2",
+        "biotype": "protein_coding",
+        "chr": "X",
+        "start": 123094062,
+        "stop": 123556514,
+        "strand": 1,
+        "description": "stromal antigen 2 [Source:HGNC Symbol;Acc:11355]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000252419",
+      "predicted": [
+        2.566,
+        2.965,
+        4.27,
+        4.37,
+        3.578
+      ],
+      "weightedZScore": 7.938,
+      "gene": {
+        "id": "ENSG00000252419",
+        "index_": 43158,
+        "name": "RNase_MRP",
+        "biotype": "misc_RNA",
+        "chr": "6",
+        "start": 5045818,
+        "stop": 5046335,
+        "strand": -1,
+        "description": "RNase MRP [Source:RFAM;Acc:RF00030]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000167895",
+      "predicted": [
+        3.935,
+        1.742,
+        4.757,
+        5.392,
+        1.769
+      ],
+      "weightedZScore": 7.869,
+      "gene": {
+        "id": "ENSG00000167895",
+        "index_": 12331,
+        "name": "TMC8",
+        "biotype": "protein_coding",
+        "chr": "17",
+        "start": 76126851,
+        "stop": 76139049,
+        "strand": 1,
+        "description": "transmembrane channel-like 8 [Source:HGNC Symbol;Acc:20474]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": [
+        "HP:0000951"
+      ]
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000110057",
+      "predicted": [
+        3.447,
+        1.209,
+        5.484,
+        4.496,
+        2.952
+      ],
+      "weightedZScore": 7.866,
+      "gene": {
+        "id": "ENSG00000110057",
+        "index_": 3761,
+        "name": "UNC93B1",
+        "biotype": "protein_coding",
+        "chr": "11",
+        "start": 67758575,
+        "stop": 67772452,
+        "strand": -1,
+        "description": "unc-93 homolog B1 (C. elegans) [Source:HGNC Symbol;Acc:13481]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000186517",
+      "predicted": [
+        3.877,
+        1.192,
+        5.386,
+        5.098,
+        1.989
+      ],
+      "weightedZScore": 7.845,
+      "gene": {
+        "id": "ENSG00000186517",
+        "index_": 16505,
+        "name": "ARHGAP30",
+        "biotype": "protein_coding",
+        "chr": "1",
+        "start": 161016736,
+        "stop": 161039760,
+        "strand": -1,
+        "description": "Rho GTPase activating protein 30 [Source:HGNC Symbol;Acc:27414]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000169442",
+      "predicted": [
+        3.113,
+        2.19,
+        5.11,
+        5.343,
+        1.702
+      ],
+      "weightedZScore": 7.807,
+      "gene": {
+        "id": "ENSG00000169442",
+        "index_": 12713,
+        "name": "CD52",
+        "biotype": "protein_coding",
+        "chr": "1",
+        "start": 26644448,
+        "stop": 26647014,
+        "strand": 1,
+        "description": "CD52 molecule [Source:HGNC Symbol;Acc:1804]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000175463",
+      "predicted": [
+        3.209,
+        0.959,
+        5.112,
+        5.663,
+        2.335
+      ],
+      "weightedZScore": 7.727,
+      "gene": {
+        "id": "ENSG00000175463",
+        "index_": 14028,
+        "name": "TBC1D10C",
+        "biotype": "protein_coding",
+        "chr": "11",
+        "start": 67171386,
+        "stop": 67177560,
+        "strand": 1,
+        "description": "TBC1 domain family, member 10C [Source:HGNC Symbol;Acc:24702]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000009790",
+      "predicted": [
+        3.699,
+        1.233,
+        4.653,
+        5.604,
+        2.04
+      ],
+      "weightedZScore": 7.705,
+      "gene": {
+        "id": "ENSG00000009790",
+        "index_": 243,
+        "name": "TRAF3IP3",
+        "biotype": "protein_coding",
+        "chr": "1",
+        "start": 209929377,
+        "stop": 209955668,
+        "strand": 1,
+        "description": "TRAF3 interacting protein 3 [Source:HGNC Symbol;Acc:30766]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000122122",
+      "predicted": [
+        3.407,
+        1.182,
+        5.499,
+        5.628,
+        1.478
+      ],
+      "weightedZScore": 7.689,
+      "gene": {
+        "id": "ENSG00000122122",
+        "index_": 5266,
+        "name": "SASH3",
+        "biotype": "protein_coding",
+        "chr": "X",
+        "start": 128913955,
+        "stop": 128929177,
+        "strand": 1,
+        "description": "SAM and SH3 domain containing 3 [Source:HGNC Symbol;Acc:15975]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000207652",
+      "predicted": [
+        3.908,
+        2.447,
+        3.467,
+        3.178,
+        4.175
+      ],
+      "weightedZScore": 7.681,
+      "gene": {
+        "id": "ENSG00000207652",
+        "index_": 21735,
+        "name": "MIR621",
+        "biotype": "miRNA",
+        "chr": "13",
+        "start": 41384902,
+        "stop": 41384997,
+        "strand": 1,
+        "description": "microRNA 621 [Source:HGNC Symbol;Acc:32877]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000136573",
+      "predicted": [
+        3.313,
+        -0.199,
+        5.688,
+        6.812,
+        1.534
+      ],
+      "weightedZScore": 7.669,
+      "gene": {
+        "id": "ENSG00000136573",
+        "index_": 7348,
+        "name": "BLK",
+        "biotype": "protein_coding",
+        "chr": "8",
+        "start": 11351510,
+        "stop": 11422113,
+        "strand": 1,
+        "description": "B lymphoid tyrosine kinase [Source:HGNC Symbol;Acc:1057]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000089597",
+      "predicted": [
+        3.677,
+        2.704,
+        3.613,
+        3.096,
+        4.031
+      ],
+      "weightedZScore": 7.657,
+      "gene": {
+        "id": "ENSG00000089597",
+        "index_": 1859,
+        "name": "GANAB",
+        "biotype": "protein_coding",
+        "chr": "11",
+        "start": 62392298,
+        "stop": 62414104,
+        "strand": -1,
+        "description": "glucosidase, alpha; neutral AB [Source:HGNC Symbol;Acc:4138]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000197471",
+      "predicted": [
+        4.167,
+        1.722,
+        4.185,
+        5.029,
+        1.985
+      ],
+      "weightedZScore": 7.642,
+      "gene": {
+        "id": "ENSG00000197471",
+        "index_": 17737,
+        "name": "SPN",
+        "biotype": "protein_coding",
+        "chr": "16",
+        "start": 29674300,
+        "stop": 29682187,
+        "strand": 1,
+        "description": "sialophorin [Source:HGNC Symbol;Acc:11249]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000269693",
+      "predicted": [
+        2.995,
+        3.689,
+        2.951,
+        3.417,
+        3.746
+      ],
+      "weightedZScore": 7.512,
+      "gene": {
+        "id": "ENSG00000269693",
+        "index_": 54433,
+        "name": "CTD-2192J16.20",
+        "biotype": "protein_coding",
+        "chr": "19",
+        "start": 12636534,
+        "stop": 12691789,
+        "strand": -1,
+        "description": "",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000105369",
+      "predicted": [
+        2.618,
+        0.84,
+        5.443,
+        6.625,
+        1.272
+      ],
+      "weightedZScore": 7.512,
+      "gene": {
+        "id": "ENSG00000105369",
+        "index_": 3103,
+        "name": "CD79A",
+        "biotype": "protein_coding",
+        "chr": "19",
+        "start": 42381190,
+        "stop": 42385439,
+        "strand": 1,
+        "description": "CD79a molecule, immunoglobulin-associated alpha [Source:HGNC Symbol;Acc:1698]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": [
+        "HP:0000951",
+        "HP:0001874",
+        "HP:0002718",
+        "HP:0004313"
+      ]
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000161570",
+      "predicted": [
+        3.509,
+        1.518,
+        5.041,
+        4.422,
+        2.27
+      ],
+      "weightedZScore": 7.495,
+      "gene": {
+        "id": "ENSG00000161570",
+        "index_": 10700,
+        "name": "CCL5",
+        "biotype": "protein_coding",
+        "chr": "17",
+        "start": 34198495,
+        "stop": 34207797,
+        "strand": -1,
+        "description": "chemokine (C-C motif) ligand 5 [Source:HGNC Symbol;Acc:10632]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000270060",
+      "predicted": [
+        4.201,
+        2.465,
+        3.516,
+        3.093,
+        3.412
+      ],
+      "weightedZScore": 7.463,
+      "gene": {
+        "id": "ENSG00000270060",
+        "index_": 54634,
+        "name": "RP11-390K5.6",
+        "biotype": "sense_intronic",
+        "chr": "11",
+        "start": 47189832,
+        "stop": 47191114,
+        "strand": -1,
+        "description": "",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000104774",
+      "predicted": [
+        3.401,
+        1.541,
+        4.473,
+        4.384,
+        2.797
+      ],
+      "weightedZScore": 7.422,
+      "gene": {
+        "id": "ENSG00000104774",
+        "index_": 2978,
+        "name": "MAN2B1",
+        "biotype": "protein_coding",
+        "chr": "19",
+        "start": 12757325,
+        "stop": 12777556,
+        "strand": -1,
+        "description": "mannosidase, alpha, class 2B, member 1 [Source:HGNC Symbol;Acc:6826]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": [
+        "HP:0002718",
+        "HP:0004313"
+      ]
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000229474",
+      "predicted": [
+        3.978,
+        0.628,
+        4.703,
+        4.999,
+        2.286
+      ],
+      "weightedZScore": 7.421,
+      "gene": {
+        "id": "ENSG00000229474",
+        "index_": 30279,
+        "name": "PATL2",
+        "biotype": "protein_coding",
+        "chr": "15",
+        "start": 44957930,
+        "stop": 45003514,
+        "strand": -1,
+        "description": "protein associated with topoisomerase II homolog 2 (yeast) [Source:HGNC Symbol;Acc:33630]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000143851",
+      "predicted": [
+        3.862,
+        1.317,
+        4.638,
+        5.125,
+        1.622
+      ],
+      "weightedZScore": 7.408,
+      "gene": {
+        "id": "ENSG00000143851",
+        "index_": 8536,
+        "name": "PTPN7",
+        "biotype": "protein_coding",
+        "chr": "1",
+        "start": 202116141,
+        "stop": 202130716,
+        "strand": -1,
+        "description": "protein tyrosine phosphatase, non-receptor type 7 [Source:HGNC Symbol;Acc:9659]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000137076",
+      "predicted": [
+        3.821,
+        1.738,
+        4.064,
+        3.432,
+        3.466
+      ],
+      "weightedZScore": 7.388,
+      "gene": {
+        "id": "ENSG00000137076",
+        "index_": 7452,
+        "name": "TLN1",
+        "biotype": "protein_coding",
+        "chr": "9",
+        "start": 35696945,
+        "stop": 35732392,
+        "strand": -1,
+        "description": "talin 1 [Source:HGNC Symbol;Acc:11845]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000156738",
+      "predicted": [
+        3.164,
+        0.377,
+        5.326,
+        6.695,
+        0.896
+      ],
+      "weightedZScore": 7.36,
+      "gene": {
+        "id": "ENSG00000156738",
+        "index_": 10098,
+        "name": "MS4A1",
+        "biotype": "protein_coding",
+        "chr": "11",
+        "start": 60223225,
+        "stop": 60238233,
+        "strand": 1,
+        "description": "membrane-spanning 4-domains, subfamily A, member 1 [Source:HGNC Symbol;Acc:7315]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": [
+        "HP:0000951",
+        "HP:0002718",
+        "HP:0004313"
+      ]
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000213445",
+      "predicted": [
+        3.268,
+        1.874,
+        4.613,
+        4.622,
+        2.076
+      ],
+      "weightedZScore": 7.358,
+      "gene": {
+        "id": "ENSG00000213445",
+        "index_": 22999,
+        "name": "SIPA1",
+        "biotype": "protein_coding",
+        "chr": "11",
+        "start": 65405568,
+        "stop": 65418401,
+        "strand": 1,
+        "description": "signal-induced proliferation-associated 1 [Source:HGNC Symbol;Acc:10885]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000182162",
+      "predicted": [
+        3.652,
+        1.509,
+        4.99,
+        5.128,
+        1.077
+      ],
+      "weightedZScore": 7.315,
+      "gene": {
+        "id": "ENSG00000182162",
+        "index_": 15353,
+        "name": "P2RY8",
+        "biotype": "protein_coding",
+        "chr": "X",
+        "start": 1581465,
+        "stop": 1656000,
+        "strand": -1,
+        "description": "purinergic receptor P2Y, G-protein coupled, 8 [Source:HGNC Symbol;Acc:15524]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000258727",
+      "predicted": [
+        2.949,
+        3.244,
+        3.631,
+        2.934,
+        3.589
+      ],
+      "weightedZScore": 7.311,
+      "gene": {
+        "id": "ENSG00000258727",
+        "index_": 47562,
+        "name": "RP11-66N24.3",
+        "biotype": "antisense",
+        "chr": "14",
+        "start": 24030306,
+        "stop": 24037282,
+        "strand": 1,
+        "description": "",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000166359",
+      "predicted": [
+        3.969,
+        0.911,
+        3.873,
+        3.313,
+        4.254
+      ],
+      "weightedZScore": 7.299,
+      "gene": {
+        "id": "ENSG00000166359",
+        "index_": 11936,
+        "name": "WDR88",
+        "biotype": "protein_coding",
+        "chr": "19",
+        "start": 33622996,
+        "stop": 33666701,
+        "strand": 1,
+        "description": "WD repeat domain 88 [Source:HGNC Symbol;Acc:26999]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000260682",
+      "predicted": [
+        3.617,
+        1.596,
+        4.712,
+        4.72,
+        1.668
+      ],
+      "weightedZScore": 7.295,
+      "gene": {
+        "id": "ENSG00000260682",
+        "index_": 49163,
+        "name": "RP11-510J16.3",
+        "biotype": "lincRNA",
+        "chr": "16",
+        "start": 81993524,
+        "stop": 81996298,
+        "strand": 1,
+        "description": "",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000174125",
+      "predicted": [
+        2.413,
+        2.281,
+        5.084,
+        4.394,
+        2.038
+      ],
+      "weightedZScore": 7.249,
+      "gene": {
+        "id": "ENSG00000174125",
+        "index_": 13771,
+        "name": "TLR1",
+        "biotype": "protein_coding",
+        "chr": "4",
+        "start": 38792298,
+        "stop": 38858438,
+        "strand": -1,
+        "description": "toll-like receptor 1 [Source:HGNC Symbol;Acc:11847]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000263264",
+      "predicted": [
+        2.96,
+        0.684,
+        5.369,
+        5.637,
+        1.51
+      ],
+      "weightedZScore": 7.227,
+      "gene": {
+        "id": "ENSG00000263264",
+        "index_": 50369,
+        "name": "CTB-133G6.1",
+        "biotype": "protein_coding",
+        "chr": "19",
+        "start": 7413848,
+        "stop": 7448271,
+        "strand": 1,
+        "description": "Protein LOC100996504  [Source:UniProtKB/TrEMBL;Acc:I3L1I5]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000242712",
+      "predicted": [
+        3.743,
+        2.225,
+        3.573,
+        3.256,
+        3.36
+      ],
+      "weightedZScore": 7.226,
+      "gene": {
+        "id": "ENSG00000242712",
+        "index_": 38928,
+        "name": "Metazoa_SRP",
+        "biotype": "misc_RNA",
+        "chr": "11",
+        "start": 118865044,
+        "stop": 118865343,
+        "strand": 1,
+        "description": "Metazoan signal recognition particle RNA [Source:RFAM;Acc:RF00017]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000122224",
+      "predicted": [
+        2.842,
+        1.009,
+        5.044,
+        6.034,
+        1.153
+      ],
+      "weightedZScore": 7.192,
+      "gene": {
+        "id": "ENSG00000122224",
+        "index_": 5279,
+        "name": "LY9",
+        "biotype": "protein_coding",
+        "chr": "1",
+        "start": 160765896,
+        "stop": 160798045,
+        "strand": 1,
+        "description": "lymphocyte antigen 9 [Source:HGNC Symbol;Acc:6730]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000242288",
+      "predicted": [
+        3.626,
+        3.162,
+        3.53,
+        2.758,
+        2.929
+      ],
+      "weightedZScore": 7.158,
+      "gene": {
+        "id": "ENSG00000242288",
+        "index_": 38736,
+        "name": "RP11-464F9.1",
+        "biotype": "processed_transcript",
+        "chr": "10",
+        "start": 75434053,
+        "stop": 75490272,
+        "strand": -1,
+        "description": "",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000228427",
+      "predicted": [
+        3.73,
+        1.642,
+        4.875,
+        4.578,
+        1.164
+      ],
+      "weightedZScore": 7.15,
+      "gene": {
+        "id": "ENSG00000228427",
+        "index_": 29559,
+        "name": "RP5-1091N2.9",
+        "biotype": "antisense",
+        "chr": "X",
+        "start": 70403409,
+        "stop": 70418025,
+        "strand": -1,
+        "description": "",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000105122",
+      "predicted": [
+        2.866,
+        1.783,
+        4.787,
+        5.22,
+        1.248
+      ],
+      "weightedZScore": 7.112,
+      "gene": {
+        "id": "ENSG00000105122",
+        "index_": 3050,
+        "name": "RASAL3",
+        "biotype": "protein_coding",
+        "chr": "19",
+        "start": 15562438,
+        "stop": 15575377,
+        "strand": -1,
+        "description": "RAS protein activator like 3 [Source:HGNC Symbol;Acc:26129]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000181284",
+      "predicted": [
+        3.286,
+        1.255,
+        4.338,
+        3.971,
+        3.007
+      ],
+      "weightedZScore": 7.091,
+      "gene": {
+        "id": "ENSG00000181284",
+        "index_": 15194,
+        "name": "TMEM102",
+        "biotype": "protein_coding",
+        "chr": "17",
+        "start": 7338762,
+        "stop": 7340998,
+        "strand": 1,
+        "description": "transmembrane protein 102 [Source:HGNC Symbol;Acc:26722]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000155561",
+      "predicted": [
+        3.287,
+        3.357,
+        2.723,
+        2.979,
+        3.505
+      ],
+      "weightedZScore": 7.089,
+      "gene": {
+        "id": "ENSG00000155561",
+        "index_": 9959,
+        "name": "NUP205",
+        "biotype": "protein_coding",
+        "chr": "7",
+        "start": 135242667,
+        "stop": 135333505,
+        "strand": 1,
+        "description": "nucleoporin 205kDa [Source:HGNC Symbol;Acc:18658]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000089820",
+      "predicted": [
+        3.246,
+        3.467,
+        3.637,
+        3.585,
+        1.824
+      ],
+      "weightedZScore": 7.048,
+      "gene": {
+        "id": "ENSG00000089820",
+        "index_": 1869,
+        "name": "ARHGAP4",
+        "biotype": "protein_coding",
+        "chr": "X",
+        "start": 153172821,
+        "stop": 153200452,
+        "strand": -1,
+        "description": "Rho GTPase activating protein 4 [Source:HGNC Symbol;Acc:674]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000227155",
+      "predicted": [
+        3.501,
+        2.654,
+        4.045,
+        2.944,
+        2.597
+      ],
+      "weightedZScore": 7.04,
+      "gene": {
+        "id": "ENSG00000227155",
+        "index_": 28676,
+        "name": "RP11-165F24.3",
+        "biotype": "antisense",
+        "chr": "9",
+        "start": 454304,
+        "stop": 492112,
+        "strand": -1,
+        "description": "",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000167208",
+      "predicted": [
+        3.56,
+        1.172,
+        4.854,
+        5.211,
+        0.943
+      ],
+      "weightedZScore": 7.039,
+      "gene": {
+        "id": "ENSG00000167208",
+        "index_": 12154,
+        "name": "SNX20",
+        "biotype": "protein_coding",
+        "chr": "16",
+        "start": 50700211,
+        "stop": 50715264,
+        "strand": -1,
+        "description": "sorting nexin 20 [Source:HGNC Symbol;Acc:30390]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000254064",
+      "predicted": [
+        3.978,
+        3.226,
+        2.86,
+        2.156,
+        3.491
+      ],
+      "weightedZScore": 7.026,
+      "gene": {
+        "id": "ENSG00000254064",
+        "index_": 44616,
+        "name": "CTD-2530N21.4",
+        "biotype": "antisense",
+        "chr": "8",
+        "start": 22112089,
+        "stop": 22132675,
+        "strand": -1,
+        "description": "",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000163131",
+      "predicted": [
+        3.039,
+        1.793,
+        5.167,
+        3.839,
+        1.787
+      ],
+      "weightedZScore": 6.988,
+      "gene": {
+        "id": "ENSG00000163131",
+        "index_": 11020,
+        "name": "CTSS",
+        "biotype": "protein_coding",
+        "chr": "1",
+        "start": 150702551,
+        "stop": 150738433,
+        "strand": -1,
+        "description": "cathepsin S [Source:HGNC Symbol;Acc:2545]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000078589",
+      "predicted": [
+        3.016,
+        1.204,
+        4.966,
+        6.004,
+        0.391
+      ],
+      "weightedZScore": 6.968,
+      "gene": {
+        "id": "ENSG00000078589",
+        "index_": 1442,
+        "name": "P2RY10",
+        "biotype": "protein_coding",
+        "chr": "X",
+        "start": 78200829,
+        "stop": 78217451,
+        "strand": 1,
+        "description": "purinergic receptor P2Y, G-protein coupled, 10 [Source:HGNC Symbol;Acc:19906]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000147065",
+      "predicted": [
+        2.937,
+        4.279,
+        2.965,
+        3.612,
+        1.746
+      ],
+      "weightedZScore": 6.949,
+      "gene": {
+        "id": "ENSG00000147065",
+        "index_": 8974,
+        "name": "MSN",
+        "biotype": "protein_coding",
+        "chr": "X",
+        "start": 64887537,
+        "stop": 64961791,
+        "strand": 1,
+        "description": "moesin [Source:HGNC Symbol;Acc:7373]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000134516",
+      "predicted": [
+        3.916,
+        1.565,
+        4.382,
+        4.397,
+        1.15
+      ],
+      "weightedZScore": 6.892,
+      "gene": {
+        "id": "ENSG00000134516",
+        "index_": 6961,
+        "name": "DOCK2",
+        "biotype": "protein_coding",
+        "chr": "5",
+        "start": 169064251,
+        "stop": 169510386,
+        "strand": 1,
+        "description": "dedicator of cytokinesis 2 [Source:HGNC Symbol;Acc:2988]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000243696",
+      "predicted": [
+        3.353,
+        2.271,
+        3.552,
+        2.576,
+        3.635
+      ],
+      "weightedZScore": 6.881,
+      "gene": {
+        "id": "ENSG00000243696",
+        "index_": 39347,
+        "name": "MUSTN1",
+        "biotype": "protein_coding",
+        "chr": "3",
+        "start": 52847298,
+        "stop": 52874278,
+        "strand": -1,
+        "description": "musculoskeletal, embryonic nuclear protein 1 [Source:HGNC Symbol;Acc:22144]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000228672",
+      "predicted": [
+        4.572,
+        1.41,
+        3.443,
+        3.351,
+        2.609
+      ],
+      "weightedZScore": 6.88,
+      "gene": {
+        "id": "ENSG00000228672",
+        "index_": 29726,
+        "name": "PROB1",
+        "biotype": "protein_coding",
+        "chr": "5",
+        "start": 138727635,
+        "stop": 138730885,
+        "strand": -1,
+        "description": "proline-rich basic protein 1 [Source:HGNC Symbol;Acc:41906]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000234129",
+      "predicted": [
+        3.382,
+        3.938,
+        2.063,
+        2.619,
+        3.353
+      ],
+      "weightedZScore": 6.867,
+      "gene": {
+        "id": "ENSG00000234129",
+        "index_": 33638,
+        "name": "RP11-120D5.1",
+        "biotype": "lincRNA",
+        "chr": "X",
+        "start": 10988011,
+        "stop": 11129234,
+        "strand": -1,
+        "description": "",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000084754",
+      "predicted": [
+        3.99,
+        2.323,
+        2.906,
+        2.785,
+        3.302
+      ],
+      "weightedZScore": 6.845,
+      "gene": {
+        "id": "ENSG00000084754",
+        "index_": 1655,
+        "name": "HADHA",
+        "biotype": "protein_coding",
+        "chr": "2",
+        "start": 26413504,
+        "stop": 26467594,
+        "strand": -1,
+        "description": "hydroxyacyl-CoA dehydrogenase/3-ketoacyl-CoA thiolase/enoyl-CoA hydratase (trifunctional protein), alpha subunit [Source:HGNC Symbol;Acc:4801]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000182179",
+      "predicted": [
+        3.431,
+        1.803,
+        3.983,
+        3.576,
+        2.506
+      ],
+      "weightedZScore": 6.842,
+      "gene": {
+        "id": "ENSG00000182179",
+        "index_": 15360,
+        "name": "UBA7",
+        "biotype": "protein_coding",
+        "chr": "3",
+        "start": 49842640,
+        "stop": 49851379,
+        "strand": -1,
+        "description": "ubiquitin-like modifier activating enzyme 7 [Source:HGNC Symbol;Acc:12471]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000132185",
+      "predicted": [
+        3.337,
+        0.251,
+        4.298,
+        5.334,
+        2.065
+      ],
+      "weightedZScore": 6.836,
+      "gene": {
+        "id": "ENSG00000132185",
+        "index_": 6589,
+        "name": "FCRLA",
+        "biotype": "protein_coding",
+        "chr": "1",
+        "start": 161676762,
+        "stop": 161684142,
+        "strand": 1,
+        "description": "Fc receptor-like A [Source:HGNC Symbol;Acc:18504]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000105374",
+      "predicted": [
+        3.28,
+        1.09,
+        4.739,
+        4.16,
+        1.99
+      ],
+      "weightedZScore": 6.824,
+      "gene": {
+        "id": "ENSG00000105374",
+        "index_": 3107,
+        "name": "NKG7",
+        "biotype": "protein_coding",
+        "chr": "19",
+        "start": 51874860,
+        "stop": 51875969,
+        "strand": -1,
+        "description": "natural killer cell group 7 sequence [Source:HGNC Symbol;Acc:7830]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000162739",
+      "predicted": [
+        2.87,
+        0.093,
+        5.27,
+        6.428,
+        0.542
+      ],
+      "weightedZScore": 6.799,
+      "gene": {
+        "id": "ENSG00000162739",
+        "index_": 10911,
+        "name": "SLAMF6",
+        "biotype": "protein_coding",
+        "chr": "1",
+        "start": 160454820,
+        "stop": 160493052,
+        "strand": -1,
+        "description": "SLAM family member 6 [Source:HGNC Symbol;Acc:21392]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000126353",
+      "predicted": [
+        3.34,
+        0.57,
+        4.212,
+        5.116,
+        1.964
+      ],
+      "weightedZScore": 6.799,
+      "gene": {
+        "id": "ENSG00000126353",
+        "index_": 5847,
+        "name": "CCR7",
+        "biotype": "protein_coding",
+        "chr": "17",
+        "start": 38710021,
+        "stop": 38721724,
+        "strand": -1,
+        "description": "chemokine (C-C motif) receptor 7 [Source:HGNC Symbol;Acc:1608]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000104814",
+      "predicted": [
+        3.044,
+        1.064,
+        4.91,
+        4.774,
+        1.39
+      ],
+      "weightedZScore": 6.79,
+      "gene": {
+        "id": "ENSG00000104814",
+        "index_": 2984,
+        "name": "MAP4K1",
+        "biotype": "protein_coding",
+        "chr": "19",
+        "start": 39078281,
+        "stop": 39109522,
+        "strand": -1,
+        "description": "mitogen-activated protein kinase kinase kinase kinase 1 [Source:HGNC Symbol;Acc:6863]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000115085",
+      "predicted": [
+        2.539,
+        2.836,
+        2.954,
+        3.148,
+        3.705
+      ],
+      "weightedZScore": 6.79,
+      "gene": {
+        "id": "ENSG00000115085",
+        "index_": 4386,
+        "name": "ZAP70",
+        "biotype": "protein_coding",
+        "chr": "2",
+        "start": 98330023,
+        "stop": 98356325,
+        "strand": 1,
+        "description": "zeta-chain (TCR) associated protein kinase 70kDa [Source:HGNC Symbol;Acc:12858]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": [
+        "HP:0000951",
+        "HP:0004313"
+      ]
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000185811",
+      "predicted": [
+        3.347,
+        1.58,
+        4.38,
+        4.753,
+        1.101
+      ],
+      "weightedZScore": 6.78,
+      "gene": {
+        "id": "ENSG00000185811",
+        "index_": 16298,
+        "name": "IKZF1",
+        "biotype": "protein_coding",
+        "chr": "7",
+        "start": 50343720,
+        "stop": 50472799,
+        "strand": 1,
+        "description": "IKAROS family zinc finger 1 (Ikaros) [Source:HGNC Symbol;Acc:13176]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000238121",
+      "predicted": [
+        2.369,
+        0.724,
+        4.711,
+        5.936,
+        1.38
+      ],
+      "weightedZScore": 6.762,
+      "gene": {
+        "id": "ENSG00000238121",
+        "index_": 36511,
+        "name": "LINC00426",
+        "biotype": "lincRNA",
+        "chr": "13",
+        "start": 30914407,
+        "stop": 30951282,
+        "strand": -1,
+        "description": "long intergenic non-protein coding RNA 426 [Source:HGNC Symbol;Acc:42761]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000229164",
+      "predicted": [
+        2.796,
+        1.346,
+        4.077,
+        5.196,
+        1.703
+      ],
+      "weightedZScore": 6.761,
+      "gene": {
+        "id": "ENSG00000229164",
+        "index_": 30060,
+        "name": "TRAC",
+        "biotype": "TR_C_gene",
+        "chr": "14",
+        "start": 23016447,
+        "stop": 23021097,
+        "strand": 1,
+        "description": "T cell receptor alpha constant [Source:HGNC Symbol;Acc:12029]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000179344",
+      "predicted": [
+        3.179,
+        1.243,
+        4.361,
+        4.15,
+        2.161
+      ],
+      "weightedZScore": 6.75,
+      "gene": {
+        "id": "ENSG00000179344",
+        "index_": 14824,
+        "name": "HLA-DQB1",
+        "biotype": "protein_coding",
+        "chr": "6",
+        "start": 32627244,
+        "stop": 32636160,
+        "strand": -1,
+        "description": "major histocompatibility complex, class II, DQ beta 1 [Source:HGNC Symbol;Acc:4944]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000122188",
+      "predicted": [
+        3.164,
+        1.012,
+        4.532,
+        5.304,
+        1.063
+      ],
+      "weightedZScore": 6.742,
+      "gene": {
+        "id": "ENSG00000122188",
+        "index_": 5274,
+        "name": "LAX1",
+        "biotype": "protein_coding",
+        "chr": "1",
+        "start": 203734304,
+        "stop": 203745361,
+        "strand": 1,
+        "description": "lymphocyte transmembrane adaptor 1 [Source:HGNC Symbol;Acc:26005]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000164308",
+      "predicted": [
+        2.638,
+        2.503,
+        4.023,
+        3.821,
+        2.047
+      ],
+      "weightedZScore": 6.723,
+      "gene": {
+        "id": "ENSG00000164308",
+        "index_": 11415,
+        "name": "ERAP2",
+        "biotype": "protein_coding",
+        "chr": "5",
+        "start": 96211643,
+        "stop": 96255420,
+        "strand": 1,
+        "description": "endoplasmic reticulum aminopeptidase 2 [Source:HGNC Symbol;Acc:29499]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000163564",
+      "predicted": [
+        3.005,
+        1.102,
+        4.336,
+        4.441,
+        2.118
+      ],
+      "weightedZScore": 6.709,
+      "gene": {
+        "id": "ENSG00000163564",
+        "index_": 11146,
+        "name": "PYHIN1",
+        "biotype": "protein_coding",
+        "chr": "1",
+        "start": 158900586,
+        "stop": 158946844,
+        "strand": 1,
+        "description": "pyrin and HIN domain family, member 1 [Source:HGNC Symbol;Acc:28894]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000163468",
+      "predicted": [
+        3.088,
+        2.513,
+        3.049,
+        3.399,
+        2.85
+      ],
+      "weightedZScore": 6.663,
+      "gene": {
+        "id": "ENSG00000163468",
+        "index_": 11109,
+        "name": "CCT3",
+        "biotype": "protein_coding",
+        "chr": "1",
+        "start": 156278759,
+        "stop": 156337664,
+        "strand": -1,
+        "description": "chaperonin containing TCP1, subunit 3 (gamma) [Source:HGNC Symbol;Acc:1616]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000173200",
+      "predicted": [
+        3.189,
+        0.43,
+        4.618,
+        5.067,
+        1.569
+      ],
+      "weightedZScore": 6.651,
+      "gene": {
+        "id": "ENSG00000173200",
+        "index_": 13588,
+        "name": "PARP15",
+        "biotype": "protein_coding",
+        "chr": "3",
+        "start": 122296449,
+        "stop": 122357894,
+        "strand": 1,
+        "description": "poly (ADP-ribose) polymerase family, member 15 [Source:HGNC Symbol;Acc:26876]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000188976",
+      "predicted": [
+        3.086,
+        1.822,
+        3.041,
+        3.704,
+        3.214
+      ],
+      "weightedZScore": 6.649,
+      "gene": {
+        "id": "ENSG00000188976",
+        "index_": 17105,
+        "name": "NOC2L",
+        "biotype": "protein_coding",
+        "chr": "1",
+        "start": 879584,
+        "stop": 894689,
+        "strand": -1,
+        "description": "nucleolar complex associated 2 homolog (S. cerevisiae) [Source:HGNC Symbol;Acc:24517]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000101997",
+      "predicted": [
+        2.953,
+        4.058,
+        2.873,
+        2.562,
+        2.42
+      ],
+      "weightedZScore": 6.648,
+      "gene": {
+        "id": "ENSG00000101997",
+        "index_": 2621,
+        "name": "CCDC22",
+        "biotype": "protein_coding",
+        "chr": "X",
+        "start": 49091927,
+        "stop": 49106987,
+        "strand": 1,
+        "description": "coiled-coil domain containing 22 [Source:HGNC Symbol;Acc:28909]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000172578",
+      "predicted": [
+        3.204,
+        1.747,
+        4.119,
+        5.016,
+        0.768
+      ],
+      "weightedZScore": 6.643,
+      "gene": {
+        "id": "ENSG00000172578",
+        "index_": 13465,
+        "name": "KLHL6",
+        "biotype": "protein_coding",
+        "chr": "3",
+        "start": 183205319,
+        "stop": 183273477,
+        "strand": -1,
+        "description": "kelch-like family member 6 [Source:HGNC Symbol;Acc:18653]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000268001",
+      "predicted": [
+        3.43,
+        1.841,
+        4.411,
+        4.032,
+        1.136
+      ],
+      "weightedZScore": 6.641,
+      "gene": {
+        "id": "ENSG00000268001",
+        "index_": 53760,
+        "name": "CTC-241F20.3",
+        "biotype": "antisense",
+        "chr": "19",
+        "start": 48758932,
+        "stop": 48761456,
+        "strand": 1,
+        "description": "",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000227507",
+      "predicted": [
+        2.377,
+        0.588,
+        4.958,
+        5.536,
+        1.389
+      ],
+      "weightedZScore": 6.64,
+      "gene": {
+        "id": "ENSG00000227507",
+        "index_": 28931,
+        "name": "LTB",
+        "biotype": "protein_coding",
+        "chr": "6",
+        "start": 31548302,
+        "stop": 31550299,
+        "strand": -1,
+        "description": "lymphotoxin beta (TNF superfamily, member 3) [Source:HGNC Symbol;Acc:6711]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000256897",
+      "predicted": [
+        3.341,
+        2.444,
+        2.377,
+        3.063,
+        3.609
+      ],
+      "weightedZScore": 6.634,
+      "gene": {
+        "id": "ENSG00000256897",
+        "index_": 46497,
+        "name": "RP11-17G12.2",
+        "biotype": "antisense",
+        "chr": "11",
+        "start": 47241769,
+        "stop": 47243302,
+        "strand": -1,
+        "description": "",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000257270",
+      "predicted": [
+        3.381,
+        1.948,
+        3.384,
+        3.037,
+        3.066
+      ],
+      "weightedZScore": 6.626,
+      "gene": {
+        "id": "ENSG00000257270",
+        "index_": 46675,
+        "name": "RP11-521B24.5",
+        "biotype": "antisense",
+        "chr": "14",
+        "start": 105934130,
+        "stop": 105936954,
+        "strand": -1,
+        "description": "",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000263568",
+      "predicted": [
+        2.906,
+        2.868,
+        3.612,
+        3.053,
+        2.367
+      ],
+      "weightedZScore": 6.621,
+      "gene": {
+        "id": "ENSG00000263568",
+        "index_": 50536,
+        "name": "MIR3916",
+        "biotype": "miRNA",
+        "chr": "1",
+        "start": 247365269,
+        "stop": 247365362,
+        "strand": -1,
+        "description": "microRNA 3916 [Source:HGNC Symbol;Acc:38912]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000123338",
+      "predicted": [
+        3.429,
+        1.201,
+        4.693,
+        4.384,
+        1.069
+      ],
+      "weightedZScore": 6.608,
+      "gene": {
+        "id": "ENSG00000123338",
+        "index_": 5401,
+        "name": "NCKAP1L",
+        "biotype": "protein_coding",
+        "chr": "12",
+        "start": 54891495,
+        "stop": 54937726,
+        "strand": 1,
+        "description": "NCK-associated protein 1-like [Source:HGNC Symbol;Acc:4862]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000121892",
+      "predicted": [
+        2.291,
+        2.35,
+        3.153,
+        3.661,
+        3.305
+      ],
+      "weightedZScore": 6.601,
+      "gene": {
+        "id": "ENSG00000121892",
+        "index_": 5238,
+        "name": "PDS5A",
+        "biotype": "protein_coding",
+        "chr": "4",
+        "start": 39824483,
+        "stop": 39979576,
+        "strand": -1,
+        "description": "PDS5, regulator of cohesion maintenance, homolog A (S. cerevisiae) [Source:HGNC Symbol;Acc:29088]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000213402",
+      "predicted": [
+        2.729,
+        -0.245,
+        5,
+        5.805,
+        1.469
+      ],
+      "weightedZScore": 6.6,
+      "gene": {
+        "id": "ENSG00000213402",
+        "index_": 22973,
+        "name": "PTPRCAP",
+        "biotype": "protein_coding",
+        "chr": "11",
+        "start": 67202981,
+        "stop": 67205538,
+        "strand": -1,
+        "description": "protein tyrosine phosphatase, receptor type, C-associated protein [Source:HGNC Symbol;Acc:9667]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000119689",
+      "predicted": [
+        3.778,
+        1.791,
+        3.242,
+        2.726,
+        3.191
+      ],
+      "weightedZScore": 6.587,
+      "gene": {
+        "id": "ENSG00000119689",
+        "index_": 4970,
+        "name": "DLST",
+        "biotype": "protein_coding",
+        "chr": "14",
+        "start": 75348594,
+        "stop": 75370448,
+        "strand": 1,
+        "description": "dihydrolipoamide S-succinyltransferase (E2 component of 2-oxo-glutarate complex) [Source:HGNC Symbol;Acc:2911]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000137310",
+      "predicted": [
+        3.56,
+        2.41,
+        2.891,
+        2.851,
+        3.014
+      ],
+      "weightedZScore": 6.586,
+      "gene": {
+        "id": "ENSG00000137310",
+        "index_": 7501,
+        "name": "TCF19",
+        "biotype": "protein_coding",
+        "chr": "6",
+        "start": 31126319,
+        "stop": 31134936,
+        "strand": 1,
+        "description": "transcription factor 19 [Source:HGNC Symbol;Acc:11629]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000113263",
+      "predicted": [
+        2.316,
+        2.438,
+        3.557,
+        3.859,
+        2.499
+      ],
+      "weightedZScore": 6.56,
+      "gene": {
+        "id": "ENSG00000113263",
+        "index_": 4183,
+        "name": "ITK",
+        "biotype": "protein_coding",
+        "chr": "5",
+        "start": 156569944,
+        "stop": 156682201,
+        "strand": 1,
+        "description": "IL2-inducible T-cell kinase [Source:HGNC Symbol;Acc:6171]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": [
+        "HP:0004313"
+      ]
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000124333",
+      "predicted": [
+        2.414,
+        4.407,
+        2.616,
+        2.743,
+        2.466
+      ],
+      "weightedZScore": 6.55,
+      "gene": {
+        "id": "ENSG00000124333",
+        "index_": 5540,
+        "name": "VAMP7",
+        "biotype": "protein_coding",
+        "chr": "X",
+        "start": 155110956,
+        "stop": 155173433,
+        "strand": 1,
+        "description": "vesicle-associated membrane protein 7 [Source:HGNC Symbol;Acc:11486]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000204482",
+      "predicted": [
+        2.862,
+        0.985,
+        4.981,
+        3.961,
+        1.847
+      ],
+      "weightedZScore": 6.545,
+      "gene": {
+        "id": "ENSG00000204482",
+        "index_": 20359,
+        "name": "LST1",
+        "biotype": "protein_coding",
+        "chr": "6",
+        "start": 31553901,
+        "stop": 31556686,
+        "strand": 1,
+        "description": "leukocyte specific transcript 1 [Source:HGNC Symbol;Acc:14189]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000104408",
+      "predicted": [
+        2.878,
+        2.303,
+        3.045,
+        3.397,
+        3.003
+      ],
+      "weightedZScore": 6.541,
+      "gene": {
+        "id": "ENSG00000104408",
+        "index_": 2932,
+        "name": "EIF3E",
+        "biotype": "protein_coding",
+        "chr": "8",
+        "start": 109213445,
+        "stop": 109447562,
+        "strand": -1,
+        "description": "eukaryotic translation initiation factor 3, subunit E [Source:HGNC Symbol;Acc:3277]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000140575",
+      "predicted": [
+        2.781,
+        2.708,
+        2.994,
+        3.144,
+        2.988
+      ],
+      "weightedZScore": 6.536,
+      "gene": {
+        "id": "ENSG00000140575",
+        "index_": 8050,
+        "name": "IQGAP1",
+        "biotype": "protein_coding",
+        "chr": "15",
+        "start": 90931450,
+        "stop": 91045475,
+        "strand": 1,
+        "description": "IQ motif containing GTPase activating protein 1 [Source:HGNC Symbol;Acc:6110]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000075884",
+      "predicted": [
+        2.981,
+        1.064,
+        4.663,
+        4.801,
+        1.102
+      ],
+      "weightedZScore": 6.534,
+      "gene": {
+        "id": "ENSG00000075884",
+        "index_": 1338,
+        "name": "ARHGAP15",
+        "biotype": "protein_coding",
+        "chr": "2",
+        "start": 143848931,
+        "stop": 144525921,
+        "strand": 1,
+        "description": "Rho GTPase activating protein 15 [Source:HGNC Symbol;Acc:21030]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000197943",
+      "predicted": [
+        3.374,
+        1.338,
+        4.335,
+        4.22,
+        1.337
+      ],
+      "weightedZScore": 6.531,
+      "gene": {
+        "id": "ENSG00000197943",
+        "index_": 17905,
+        "name": "PLCG2",
+        "biotype": "protein_coding",
+        "chr": "16",
+        "start": 81772702,
+        "stop": 81991899,
+        "strand": 1,
+        "description": "phospholipase C, gamma 2 (phosphatidylinositol-specific) [Source:HGNC Symbol;Acc:9066]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": [
+        "HP:0000951",
+        "HP:0004313"
+      ]
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000105939",
+      "predicted": [
+        2.993,
+        1.619,
+        3.554,
+        4.426,
+        2.011
+      ],
+      "weightedZScore": 6.531,
+      "gene": {
+        "id": "ENSG00000105939",
+        "index_": 3237,
+        "name": "ZC3HAV1",
+        "biotype": "protein_coding",
+        "chr": "7",
+        "start": 138728266,
+        "stop": 138794465,
+        "strand": -1,
+        "description": "zinc finger CCCH-type, antiviral 1 [Source:HGNC Symbol;Acc:23721]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000158623",
+      "predicted": [
+        2.399,
+        3.222,
+        2.92,
+        2.708,
+        3.345
+      ],
+      "weightedZScore": 6.527,
+      "gene": {
+        "id": "ENSG00000158623",
+        "index_": 10327,
+        "name": "COPG2",
+        "biotype": "protein_coding",
+        "chr": "7",
+        "start": 130146089,
+        "stop": 130353598,
+        "strand": -1,
+        "description": "coatomer protein complex, subunit gamma 2 [Source:HGNC Symbol;Acc:2237]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000128815",
+      "predicted": [
+        3.245,
+        0.601,
+        4.893,
+        4.576,
+        1.215
+      ],
+      "weightedZScore": 6.498,
+      "gene": {
+        "id": "ENSG00000128815",
+        "index_": 6109,
+        "name": "WDFY4",
+        "biotype": "protein_coding",
+        "chr": "10",
+        "start": 49892921,
+        "stop": 50191001,
+        "strand": 1,
+        "description": "WDFY family member 4 [Source:HGNC Symbol;Acc:29323]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000156531",
+      "predicted": [
+        2.418,
+        4.904,
+        2.06,
+        3.061,
+        2.048
+      ],
+      "weightedZScore": 6.481,
+      "gene": {
+        "id": "ENSG00000156531",
+        "index_": 10079,
+        "name": "PHF6",
+        "biotype": "protein_coding",
+        "chr": "X",
+        "start": 133507283,
+        "stop": 133562820,
+        "strand": 1,
+        "description": "PHD finger protein 6 [Source:HGNC Symbol;Acc:18145]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": [
+        "HP:0001419"
+      ]
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000167658",
+      "predicted": [
+        2.406,
+        1.44,
+        3.264,
+        4.048,
+        3.309
+      ],
+      "weightedZScore": 6.47,
+      "gene": {
+        "id": "ENSG00000167658",
+        "index_": 12263,
+        "name": "EEF2",
+        "biotype": "protein_coding",
+        "chr": "19",
+        "start": 3976054,
+        "stop": 3985467,
+        "strand": -1,
+        "description": "eukaryotic translation elongation factor 2 [Source:HGNC Symbol;Acc:3214]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000170476",
+      "predicted": [
+        2.698,
+        0.915,
+        4.425,
+        5.154,
+        1.267
+      ],
+      "weightedZScore": 6.466,
+      "gene": {
+        "id": "ENSG00000170476",
+        "index_": 12949,
+        "name": "MZB1",
+        "biotype": "protein_coding",
+        "chr": "5",
+        "start": 138723169,
+        "stop": 138725770,
+        "strand": -1,
+        "description": "marginal zone B and B1 cell-specific protein [Source:HGNC Symbol;Acc:30125]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000162511",
+      "predicted": [
+        3.025,
+        1.57,
+        4.178,
+        4.238,
+        1.403
+      ],
+      "weightedZScore": 6.446,
+      "gene": {
+        "id": "ENSG00000162511",
+        "index_": 10840,
+        "name": "LAPTM5",
+        "biotype": "protein_coding",
+        "chr": "1",
+        "start": 31205316,
+        "stop": 31230667,
+        "strand": -1,
+        "description": "lysosomal protein transmembrane 5 [Source:HGNC Symbol;Acc:29612]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000177455",
+      "predicted": [
+        2.941,
+        1.144,
+        4.305,
+        4.819,
+        1.203
+      ],
+      "weightedZScore": 6.445,
+      "gene": {
+        "id": "ENSG00000177455",
+        "index_": 14446,
+        "name": "CD19",
+        "biotype": "protein_coding",
+        "chr": "16",
+        "start": 28943260,
+        "stop": 28950667,
+        "strand": 1,
+        "description": "CD19 molecule [Source:HGNC Symbol;Acc:1633]",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": [
+        "HP:0000951",
+        "HP:0002718",
+        "HP:0004313"
+      ]
+    },
+    {
+      "href": "http://molgenis27.target.rug.nl/api/v1/gene/ENSG00000269979",
+      "predicted": [
+        3.324,
+        2.475,
+        2.949,
+        2.619,
+        3.011
+      ],
+      "weightedZScore": 6.43,
+      "gene": {
+        "id": "ENSG00000269979",
+        "index_": 54584,
+        "name": "RP11-498E2.7",
+        "biotype": "lincRNA",
+        "chr": "9",
+        "start": 125086887,
+        "stop": 125087594,
+        "strand": 1,
+        "description": "",
+        "biomartRelease": "V71",
+        "assemblyRelease": "GRCh37"
+      },
+      "annotated": []
+    }
+  ]
+}
